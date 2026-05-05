@@ -9,7 +9,7 @@ main(){
 
   print("Hey!!! I $check $name.");
   print("I am $age years old.");
-  print("My unversity CG was $cg.");
+  print("My unversity CG was ${cg.toStringAsFixed(2)}.");
   print("I love Flowers.");
 
 }
